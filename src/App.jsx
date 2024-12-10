@@ -31,7 +31,7 @@ function App() {
         <h1 className=" text-3xl font-bold">DAILY GOALS</h1>
         <input
           type="text"
-          className="w-2/3 mt-10 mb-3 px-2 py-1 outline-none"
+          className="w-full md:w-2/3 mt-10 mb-3 px-2 py-1 outline-none"
           value={Title}
           onChange={(e) => {
             setTitle(e.target.value);
@@ -40,7 +40,7 @@ function App() {
         />
         <input
           type="text"
-          className="  w-2/3 mb-4 px-2 py-1 outline-none"
+          className=" w-full  md:w-2/3 mb-4 px-2 py-1 outline-none"
           value={Description}
           onChange={(e) => {
             setDescription(e.target.value);
@@ -48,7 +48,7 @@ function App() {
           placeholder="description"
         />
         <button
-          className=" w-2/3 mb-10 bg-slate-900 text-white py-2"
+          className="w-full md:w-2/3 mb-10 bg-slate-900 text-white py-2"
           onClick={(e) => {
             if(Title!="")
             {
