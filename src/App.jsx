@@ -27,7 +27,7 @@ function App() {
       <div className="w-full bg-blue-500 text-center font-semibold text-xl py-4 text-slate-900">
         Get Ready To Complete Daily Goals
       </div>
-      <div className=" w-2/3 mx-auto bg-slate-300 flex-1 px-20 py-16 flex flex-col items-center">
+      <div className="w-full md:w-2/3 mx-auto bg-slate-300 flex-1 px-20 py-16 flex flex-col items-center">
         <h1 className=" text-3xl font-bold">DAILY GOALS</h1>
         <input
           type="text"
